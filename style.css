@@ -5,18 +5,15 @@
     font-family: "Roboto", sans-serif;
 }
 
-.test {
-    background-color: red;
-}
-
 img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 .chunk {
     display: flex;
     flex-direction: column;
+    padding: 25px 150px 25px 150px;
 }
 
 .herotext {
@@ -46,11 +43,6 @@ a {
 .cosmos {
     height: 150px;
     width: 350px;
-}
-
-.hContent,
-.herotext {
-    margin: 20px 150px 75px 150px;
 }
 
 .hText,
@@ -86,4 +78,69 @@ button {
 .hBody,
 .hIntro {
     margin-bottom: 15px;
+}
+
+.body {
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.imgparagraphs {
+    display: block;
+    width: 200px;
+}
+
+.information {
+    margin-bottom: 40px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.Thor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footcontent {
+    display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.signup.footer {
+    border: 2px solid white;
+    width: 75px;
+    justify-content: center;
 }
